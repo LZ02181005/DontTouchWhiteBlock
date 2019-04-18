@@ -1,0 +1,28 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'qwBaseProject' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+# 基础
+pod 'Bugly','2.5.0'                                     # 腾讯崩溃日志
+pod 'NerdyUI','1.2.1'                                   # macro+chain
+pod 'Masonry','1.1.0'                                   # 自动布局
+pod 'MJRefresh','3.1.15.3'                              # scrollview 刷新
+pod 'SDWebImage','4.2.3'                                # 图片加载
+pod 'AFNetworking','3.2.0'                              # 网络请求
+pod 'ReactiveObjC','3.1.0'                              # RAC
+pod 'PYPhotoBrowser','1.5.6'                            # 图片浏览
+pod 'DZNEmptyDataSet','1.8.1'                           # 空视图占位
+pod 'IQKeyboardManager','5.0.8'                         # 键盘管理
+pod 'CYLTabBarController','1.17.6'                      # tabar
+pod 'TZImagePickerController','2.0.0.9'                 # imagePicker
+pod 'DGActivityIndicatorView','2.1.1'                   # 加载视图
+pod 'MJExtension','3.0.13'
+pod 'MBProgressHUD','1.0.0'                             #菊花框架
+
+pod 'MoxieSDK-iOS'                                      #魔蝎SDK用于运营商认证
+  # Pods for qwBaseProject
+
+end

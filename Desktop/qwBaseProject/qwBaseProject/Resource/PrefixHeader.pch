@@ -1,0 +1,43 @@
+//
+//  PrefixHeader.pch
+//  qwBaseProject
+//
+//  Created by L.Ronaldo on 2019/3/27.
+//  Copyright © 2019 apple. All rights reserved.
+//
+
+
+///预处理文件
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <UIImageView+WebCache.h>
+#import <Masonry.h>
+#import <AFNetworking.h>
+#import <DGActivityIndicatorView.h>
+#import <NerdyUI.h>
+#import <ReactiveObjC.h>
+#import <IQKeyboardManager.h>
+#import <MJExtension.h>
+#import <MJRefresh.h>
+#import <CYLTabBarController/CYLTabBarController.h>
+#import <TZImagePickerController.h>
+#import <Bugly/Bugly.h>
+#import "MJRefresh.h"
+#import "YSAppMacro.h"
+#import "QWCategory.h"
+#import "YSAppConfig.h"
+#import "HUDTools.h"
+#import <MoxieSDK.h>
+#import "GlobalAccess.h"
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+///签名
+#define LM_API_APPKEY @"QJHoXUiVvGeOLVe8u3COng1XkFGJp1RL3CVSKUyFrkzIOauRvKexHwHHCMT34Mf63KJjpLaVbej2jvT2"
+
+///魔蝎AppID
+#define MS_MOXIE_APPID @"94f84ae1048e443aac7ef4175d3e0983"
+
+#endif /* PrefixHeader_pch */

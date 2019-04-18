@@ -1,0 +1,6 @@
+framework module Pods_qwBaseProject {
+  umbrella header "Pods-qwBaseProject-umbrella.h"
+
+  export *
+  module * { export * }
+}
